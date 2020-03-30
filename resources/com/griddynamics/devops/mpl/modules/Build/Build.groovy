@@ -3,7 +3,8 @@
  */
 
 #MPLModule('Maven Build', CFG)
-echo "Test build script"
+
 if( fileExists('Dockerfile') ) {
+  echo "File exist"
   MPLModule('Docker Build', CFG)
 }

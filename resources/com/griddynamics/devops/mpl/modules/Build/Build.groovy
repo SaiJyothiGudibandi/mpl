@@ -4,6 +4,6 @@
 
 MPLModule('Maven Build', CFG)
 
-if( fileExists('Dockerfile') ) {
+if( fileExists('DockerBuild') ) {
   MPLModule('Docker Build', CFG)
 }

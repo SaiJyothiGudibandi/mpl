@@ -2,7 +2,7 @@
  * Common build module
  */
 
-MPLModule('MavenTest Build', CFG)
+MPLModule('Maven Build', CFG)
 echo "...Test Build..."
 if( fileExists('Dockerfile') ) {
   MPLModule('Docker Build', CFG)

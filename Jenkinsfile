@@ -1,3 +1,3 @@
-@Library('mpl@release') _
+@Library('mpl-test-shared-library@release') _
 
 MPLPipeline {}

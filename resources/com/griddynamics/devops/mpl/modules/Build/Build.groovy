@@ -1,9 +1,10 @@
 /**
  * Common build module
  */
-MPLModule('Maven Build', CFG)
+echo "Test build groovy"
+MPLModule('Mvn Build', CFG)
 
 if( fileExists('Dockerfile') ) {
   MPLModule('Docker Build', CFG)
-  echo "Test build groovy"
+
 }

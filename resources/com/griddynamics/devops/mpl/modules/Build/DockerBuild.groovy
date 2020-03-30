@@ -1,0 +1,1 @@
+sh "docker build -t ${params.docker_tag} ."
